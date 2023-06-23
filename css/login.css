@@ -1,0 +1,70 @@
+main#login{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+form#form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+form a:hover{
+    cursor: pointer;
+}
+
+form#form-login input[type=text]{
+    width: 75%;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form#form-login input[type=password]{
+    width: 75%;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+form#form-login input:focus{
+    background-color: aqua;
+    color: black;
+    scale: 1.05;
+    border: 2px solid aqua;
+}
+
+form#form-login input[type=submit]{
+    padding: 10px;
+    border: 2px solid black;
+    outline: none;
+    background-color: aqua;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form#form-login input[type=submit]:hover{
+    background-color: black;
+    color: aqua;
+    border: 2px solid aqua;
+}
+
+div#ventajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
